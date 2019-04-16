@@ -36,6 +36,8 @@
     这时我们可以点开`vscode`的`Source Control`（源代码管理）就可以很方便的查看到冲突的文件，处理完冲突然后再次合并。
 
     ````powershell
+    # 提交并注释
+    git commit -m "upgrade"
     # 这时执行合并提示成功了
     git merge upgrade/master
     # 推送到github
